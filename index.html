@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+
+    <div class="navbar">
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <a href="./ranking.html">SPORTLER RANKING</a>
+        <a href="./kader.html">REAL MADRID KADER</a>
+    </div>
+    
+
+
+    <header>
+        <h1>HOMEPAGE</h1>
+    </header>
+
+
+
+    <main>
+        <div class="task-list">
+            <h2>Steckbrief</h2>
+            <ul>
+                Hallo, mein Name ist <span>Azad Pekgüzel</span> und ich gehe in die 1CHIT.
+            </ul>
+        </div>
+
+
+        <div class="task-details">
+            <h2>Sportarten</h2>
+            <ul>
+              <li><a href="https://de.wikipedia.org/wiki/Liste_von_Sportarten">Hier findest du Sporarten.</a></li>
+            </ul>
+        </div>
+
+        <br>
+        
+        <img src="./img/Hallo@3x.png" alt="HALLO" width="100px">
+
+    </main>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const navbar = document.querySelector(".navbar");
+    
+            menuToggle.addEventListener("click", function () {
+                navbar.classList.toggle("show-menu");
+            });
+        });
+    </script>
+    
+    <footer>
+        <p>&copy; 2023 HOMEPAGE von Azad Pekgüzel</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RANKING</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+
+    <div class="navbar">
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <a href="./index.html">HOMEPAGE</a>
+        <a href="./kader.html">REAL MADRID KADER</a>
+    </div>
+    
+
+
+    <header>
+        <h1>SPORTLER RANKING</h1>
+    </header>
+
+
+
+    <main>
+        <div class="task-list">
+            <h2>RANKING</h2>
+
+            <ol><span>BOXEN</span></ol>
+            <ol>FUßBALL</ol>
+            <ol>LAUFEN</ol>
+            <ol>SCHWIMMEN</ol>
+        </div>
+
+
+        <div class="task-details">
+            <h2>LINK</h2>
+            <ul>
+              <li><a href="https://www.bounce.at/">Hier findest du den Link zu meinem Boxclub.</a></li>
+            </ul>
+        </div>
+
+        <br>
+
+        <img src="./img/boxen.jpg" alt="BOXEN" width="150px">
+    </main>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const navbar = document.querySelector(".navbar");
+    
+            menuToggle.addEventListener("click", function () {
+                navbar.classList.toggle("show-menu");
+            });
+        });
+    </script>
+    
+    <footer>
+        <p>&copy; 2023 RANKING von Azad Pekgüzel</p>
+    </footer>
+</body>
+</html>

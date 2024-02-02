@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KADER</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+
+    <div class="navbar">
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <a href="./index.html">HOMEPAGE</a>
+        <a href="./ranking.html">SPORTLER RANKING</a>
+    </div>
+    
+
+
+    <header>
+        <h1>REALMADRID KADER</h1>
+    </header>
+
+
+
+    <main>
+        <div class="task-list">
+            <h2>KADER</h2>
+            <ul><span>COURTOIS</span></ul>
+            <ul>VINICIUS</ul>
+            <ul>DIAZ</ul>
+            <ul>KROOS</ul>
+            <ul>GÜLER</ul>
+            <ul>MENDY</ul>
+            <ul>ALABA</ul>
+            <ul>RÜDIGER</ul>
+            <ul>MODRIC</ul>
+        </div>
+        <br>
+        <br>
+        <div class="task-details">
+            <h2>WEBSITE</h2>
+            <ul>
+              <li><a href="https://www.realmadrid.com/de">Hier findest du die Website von Real.</a></li>
+            </ul>
+        </div>
+
+        <br>
+        <img src="./img/real.png" alt="real">
+
+    </main>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const navbar = document.querySelector(".navbar");
+    
+            menuToggle.addEventListener("click", function () {
+                navbar.classList.toggle("show-menu");
+            });
+        });
+    </script>
+    
+    <footer>
+        <p>&copy; 2023 HOMEPAGE von Azad Pekgüzel</p>
+    </footer>
+</body>
+</html>
